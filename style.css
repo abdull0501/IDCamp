@@ -1,0 +1,727 @@
+
+/* Header and Navigation */
+header {
+  background-color: #fff1a3; /* Background warna kuning cerah untuk header */
+  padding: 6px;
+  display: flex;
+  border-radius: 8;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Memberikan bayangan ringan */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* Memusatkan item navigasi */
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 15px; /* Memberikan jarak antar menu */
+}
+
+nav a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #573d0e; /* Warna coklat gelap yang hangat */
+  text-decoration:solid;
+  transition: color 0.3s ease; /* Transisi halus untuk perubahan warna */
+}
+
+nav a:hover {
+  color: #885a26; /* Warna sedikit lebih gelap saat hover */
+  font-weight: bold; /* Menebalkan font saat hover */
+}
+
+/* Heading */
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  color: #885a26; /* Warna coklat yang hangat */
+  text-align: center;
+  margin-top: 20px;
+}
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+ 
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+  nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+}/* Header and Navigation */
+header {
+  background-color: #fff1a3; /* Background warna kuning cerah untuk header */
+  padding: 6px;
+  display: flex;
+  border-radius: 8;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Memberikan bayangan ringan */
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; /* Memusatkan item navigasi */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px; /* Memberikan jarak antar menu */
+}
+
+nav a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #573d0e; /* Warna coklat gelap yang hangat */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Transisi halus untuk perubahan warna */
+}
+
+nav a:hover {
+  color: #885a26; /* Warna sedikit lebih gelap saat hover */
+  font-weight: bold; /* Menebalkan font saat hover */
+}
+
+/* Heading */
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  color: #885a26; /* Warna coklat yang hangat */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+ 
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+  nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+}
+
+/* Body */
+body {
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Movie Section */
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: larger;
+}
+
+.movie img {
+  flex-wrap: wrap;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.description {
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: rgb(63, 52, 52);
+  background-color: #fad6be;
+  text-align: center;
+}
+
+/* Box */
+.box {
+  width: 230px;
+  height: 370px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+/* Stars */
+.stars {
+  color: rgb(48, 48, 47); /* Warna untuk bintang kosong */
+  font-size: 30px; /* Ukuran bintang */
+}
+
+/* Navigation */
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+/* Section Image */
+section img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: fit-content;
+}
+
+/* Profile */
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.profile img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Creator */
+.creator {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;/* Header and Navigation */
+  background-color: #fff1a3; 
+  padding: 6px;
+  display: flex;
+  font-display: justify;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px; 
+}
+
+nav a {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 18px;
+  color: #573d0e; 
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+nav a:hover {
+  color: #885a26; 
+  font-weight: bold; 
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  header.navbar-container {
+    flex-direction: column;
+  }
+ 
+  header.navbar-container .nav-list ul {
+    flex-wrap: wrap;
+    column-gap: 0.5rem;
+  }
+  nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+}
+
+/* Body */
+body {
+  line-height: 1.6;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Movie Section */
+.movie {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: larger;
+}
+
+.movie img {
+  flex-wrap: wrap;
+  width: 50px;
+  margin-right: 15px;
+}
+
+.description {
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+}
+
+/* Footer */
+footer {
+  padding: 20px;
+  color: rgb(63, 52, 52);
+  background-color: #fad6be;
+  text-align: center;
+}
+
+/* Box */
+.box {
+  width: 230px;
+  height: 370px;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+/* Stars */
+.stars {
+  color: rgb(48, 48, 47); 
+  font-size: 30px; 
+}
+
+/* Navigation */
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+/* Section Image */
+section img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: fit-content;
+}
+
+/* Profile */
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.profile img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Card */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Creator */
+.creator {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; 
+  font-display: justify;
+  margin: 20px 0;
+}
+
+.creator-item {
+  display: flex;
+  align-items: center;
+  gap: 50px; 
+  background-color: #fff9dc; 
+  padding: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.creator-item img {
+  width: 1400px; 
+  height: auto; 
+  border-radius: 8px; 
+}
+
+.creator-item h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.creator-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+section h3 {
+  font-size: 18px;
+  font-style: normal;
+  color: #885a26;
+  border-radius: 50;
+  text-shadow: #1f1c18b0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Jepang {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #fff6c2;
+  text-align: left;
+  color: rgb(121, 92, 29);
+}
+
+article h2 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  color: rgb(121, 92, 29);
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #fff1a3;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+}
+
+/* Bagian utama */
+main {
+    background-color: #fff6c2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Header untuk artikel dan section */
+article h1, section h2, section h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #885a26;
+    text-align: left;
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(121, 92, 29);
+}
+
+/* Gambar */
+section img, .movie img {
+    max-width: 200px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Text styling */
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #573d0e;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Movie item layout */
+.movie-item {
+    display: flex;
+    align-items: flex-start;
+    width: 200;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.movie img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #573d0e;
+    font-family:'inter'; 
+    margin-bottom: 10px; }
+
+
+.box {
+  width: 230px;
+  height: 370px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
+}
+
+
+.stars {
+    color: rgb(48, 48, 47); /* Warna untuk bintang kosong */
+    font-size: 30px; /* Ukuran bintang */
+}
+
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(71, 58, 29);
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+section img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: fit-content;
+}
+
+.profile header {
+  text-align: center;
+}
+
+.featured-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.profile img {
+  width: 200px;
+  max-width: 100%;
+  height: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.creator {
+  display: flex;
+  flex-direction: column;
+  font-display: justify;
+  gap: 20px; /* Jarak antar pencipta */
+  margin: 20px 0;
+}
+
+.creator-item {
+  display: flex;
+  align-items: center;
+  gap: 50px; /* Jarak antara gambar dan teks */
+  background-color: #fff9dc; /* Warna latar sesuai tema Studio Ghibli */
+  padding: 20px;
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.creator-item img {
+  width: 1400px; /* Lebar gambar */
+  height: auto; /* Menyesuaikan tinggi gambar */
+  border-radius: 8px; /* Membuat sudut gambar melengkung */
+}
+
+.creator-item h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.creator-item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+section h3 {
+  font-size: 18px;
+  font-style: normal;
+  color: #885a26;
+  border-radius: 50;
+  text-shadow: #1f1c18b0;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.Jepang {
+  font-size: 20px;
+  padding: 60px;
+  background-color: #fff6c2;
+  text-align: left;
+  color: rgb(121, 92, 29);
+}
+
+article h2 {
+  font-size: 20px;
+  padding: 10px;
+  text-align: left;
+  color: rgb(121, 92, 29);
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+  background-color: #fff1a3;
+  padding: 5px;
+}
+
+
+
+main {
+  padding: 20px;
+}
+/* Bagian utama */
+main {
+    background-color: #fff6c2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Header untuk artikel dan section */
+article h1, section h2, section h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: #885a26;
+    text-align: left;
+}
+
+/* List styling */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(121, 92, 29);
+}
+
+/* Gambar */
+section img, .movie img {
+    max-width: 200px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Text styling */
+p {
+    font-family: 'Quicksand', sans-serif;
+    color: #573d0e;
+    line-height: 1.8;
+    text-align: justify;
+}
+
+/* Movie item layout */
+.movie-item {
+    display: flex;
+    align-items: flex-start;
+    width: 200;
+    margin-bottom: 20px;
+    border-radius: 100%;
+}
+
+.movie img {
+    width: 150px;
+    margin-right: 15px;
+}
+
+.description {
+    font-size: 16px;
+    color: #573d0e;
+    font-family:'inter'; /* Ganti dengan font pilihan Anda */
+    margin-bottom: 10px; /* Tambahkan jarak bawah jika dibutuhkan */
+  
+}
+
